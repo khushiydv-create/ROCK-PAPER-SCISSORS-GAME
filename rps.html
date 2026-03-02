@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SCISSORS</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+<h1 style="text-align: center;">ROCK-PAPER-SCISSORS GAME</h1>
+<br><hr>
+<h3 class="computer">(choose any one button)</h3>
+<br>
+<div class="container">
+    <button class="enhance" onclick="alert('you have chosen Rock!'); 
+    rock();
+">🗿</button>
+ 
+    <button class="enhance" onclick="alert('you have chosen paper!');
+    paper();">📄</button>
+
+    <button class="enhance"
+    onclick="alert('you have choosen Scissors!');
+    scissors();
+    ">✂️</button>
+</div>
+
+<h2 class="display"></h2>
+
+<div class="con2">
+    <h3 id="scorehead">YOUR MATCH SCORE:</h3>
+    <div class="scoreBoard">
+   <div id="win">WON
+    <h1 class="inWin"></h1>
+   </div>
+   <div id="lost">LOST
+    <h1 class="inLost"></h1>
+   </div>
+   <div id="tie">TIE
+    <h1 class="inTie"></h1>
+   </div>
+</div>
+</div>
+<button id="reset" style="color:white; font-size: 30px; margin-top: 2vh; margin-left: 35vw;" onclick="localStorage.clear(); reloadpage();">RESET SCORE</button>
+
+<script src="rps.js"></script>
+</body>
+</html>

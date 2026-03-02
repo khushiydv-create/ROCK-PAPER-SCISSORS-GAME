@@ -1,0 +1,73 @@
+*{
+    background-color: black;
+}
+.container{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+   margin-top: 5%;
+}
+.enhance{
+    font-size: 100px;
+    border-left: 3px solid white;
+    border-top: 8px solid white;
+    border-style: groove;
+    border-bottom: 1px solid rgb(23, 22, 22);
+    border-right: 1px solid rgb(28, 26, 26);
+}   
+h3{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#scorehead{
+    width: fit-content;
+    margin-left: 43vw;
+    border: 3px solid whitesmoke;
+    border-radius: 20%;
+    border-style: groove;
+    background-color: rgb(31, 7, 217);
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+}
+.scoreBoard{
+display: flex;
+margin-left: 20vw;
+margin-top: 3vh;
+border: 2px solid white;
+height: 25vh;
+width: 60vw;
+}
+#win, #lost, #tie{
+border: 2px solid white;
+color: white;
+font-size: 150%;
+text-align: center;
+height: 100%;
+width: 33%;
+}
+@media screen and (max-width:1000px) {
+    #scorehead{
+        margin-left: 250px;
+    }
+}
